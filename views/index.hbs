@@ -1,2 +1,12 @@
 <p>Current temperature on {{data.Sensor}}:</p> 
 <p class="temp">{{data.Temp}}&deg;C</p>
+
+
+<object id="nestThermostatWidget" role="svidget" data="/javascripts/nest-thermostat.svg" type="image/svg+xml" width="400" height="400">
+	<param name="targetTemp" value="0" />
+	<param name="ambientTemp" value="24" />
+	<param name="unit" value="C" />
+	<param name="state" value="off" />
+	<param name="showLeaf" value="false" />
+	<param name="awayMode" value="false" />
+</object>
