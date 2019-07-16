@@ -1,0 +1,7 @@
+/* Bootstrap Customization */
+@media screen and (max-width: 1024px) {
+  .temp {
+    font-size: 30vw;
+  }
+}
+
